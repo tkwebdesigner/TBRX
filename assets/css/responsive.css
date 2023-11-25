@@ -1,0 +1,309 @@
+
+@media screen and (max-width:1024px) and (min-width:769px){
+    .custom_btn{
+        font-size: 12px;
+        padding: 3px 8px;
+        text-transform: capitalize;
+    }
+    .logo{
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .buttons{
+        gap: .5rem;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .bannerContent h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .bannerContent p {
+        font-size: 1.5rem;
+        padding: 0 20px;
+    }
+    .asseenon .gallery-img {
+        width: 100%;
+    }
+    .x-logo {
+        width: 17px;
+    }
+    .pliability h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .pliability .x-logo-dark {
+        width: 4.5%;
+    }
+    .pliability,
+    .asseenon,
+    .trainersSection,
+    .holisticFitness,
+    .testimonials{
+        padding: 40px 0;
+    }
+    .pliability p {
+        font-size: 15px;
+    }
+    .asseenon h2,
+    .trainersSection h2,
+    .holisticFitness h2,
+    .testimonials h2,
+    .subcribe h2{
+        font-size: 32px;
+    }
+    .asseenon img {
+        width: 80%;
+    }
+    .trainersSection .xs-team{
+        margin-bottom: 20px;
+    }
+    .fitnessItem img {
+        width: 50px;
+    }
+    .fitnessItem {
+        padding: 10px 25px;
+    }
+    .fitnessItem span,.testimonials .card h5{
+        font-size: 18px;
+    }
+    .testimonials .x-logo-dark {
+        width: 4%;
+        margin-top: 5px;
+    }
+    .testimonials .card p {
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    .testimonials .card{
+        height: 65vh;
+    }
+    .subcribe h3{
+        font-size: 17px;
+    }
+    .subcribe {
+        padding: 10% 2% 2% 5%;
+    }
+    .xs-footer-logo img{
+        width: 30%;
+    }
+    .footer-widget h3{
+        font-size: 18px;
+        margin-top: 20px;
+        border-top: 1px solid rgb(255 255 255 / 10%);
+        padding-top: 20px;
+    }
+    .footer-widget p{
+        font-size: 14px;
+    }
+    .trainersSection h3 {
+        font-size: 20px;
+    }
+    .xs-team-overlay{
+        display: none !important;
+    }
+}
+@media screen and (max-width:768px) and (min-width:480px){
+    .xs-team-overlay{
+        display: none !important;
+    }
+    .custom_btn{
+        font-size: 12px;
+        padding: 3px 8px;
+        text-transform: capitalize;
+    }
+    .logo{
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .buttons{
+        gap: .5rem;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .bannerContent h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .bannerContent p {
+        font-size: 1.5rem;
+        padding: 0 20px;
+    }
+    .asseenon .gallery-img {
+        width: 100%;
+    }
+    .x-logo {
+        width: 17px;
+    }
+    .pliability h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .pliability .x-logo-dark {
+        width: 4.5%;
+    }
+    .pliability,
+    .asseenon,
+    .trainersSection,
+    .holisticFitness,
+    .testimonials{
+        padding: 40px 0;
+    }
+    .asseenon h2,
+    .trainersSection h2,
+    .holisticFitness h2,
+    .testimonials h2,
+    .subcribe h2{
+        font-size: 32px;
+    }
+    .asseenon img {
+        width: 30%;
+    }
+    .trainersSection .xs-team{
+        margin-bottom: 20px;
+    }
+    .fitnessItem img {
+        width: 50px;
+    }
+    .fitnessItem {
+        padding: 10px 25px;
+    }
+    .fitnessItem span,.testimonials .card h5{
+        font-size: 18px;
+    }
+    .testimonials .x-logo-dark {
+        width: 9%;
+        margin-top: 9px;
+    }
+    .testimonials .card p {
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    .testimonials .card{
+        height: 50vh;
+    }
+    .subcribe h3{
+        font-size: 17px;
+    }
+    .subcribe {
+        padding: 50% 2% 2% 5%;
+    }
+    .xs-footer-logo img{
+        width: 30%;
+    }
+    .footer-widget h3{
+        font-size: 18px;
+        margin-top: 20px;
+        border-top: 1px solid rgb(255 255 255 / 10%);
+        padding-top: 20px;
+    }
+    .footer-widget p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:479px){
+    .xs-team-overlay{
+        display: none !important;
+    }
+    .custom_btn{
+        font-size: 12px;
+        padding: 3px 8px;
+        text-transform: capitalize;
+    }
+    .logo{
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .buttons{
+        gap: .5rem;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .bannerContent h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .bannerContent p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    .x-logo {
+        width: 17px;
+    }
+    .asseenon .gallery-img {
+        width: 100%;
+    }
+    .pliability h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .pliability .x-logo-dark {
+        width: 4.5%;
+    }
+    .pliability,
+    .asseenon,
+    .trainersSection,
+    .holisticFitness,
+    .testimonials{
+        padding: 40px 0;
+    }
+    .asseenon h2,
+    .trainersSection h2,
+    .holisticFitness h2,
+    .testimonials h2,
+    .subcribe h2{
+        font-size: 24px;
+    }
+    .asseenon img {
+        width: 45%;
+    }
+    .trainersSection .xs-team{
+        margin-bottom: 20px;
+    }
+    .fitnessItem img {
+        width: 50px;
+    }
+    .fitnessItem {
+        padding: 10px 25px;
+    }
+    .fitnessItem span,.testimonials .card h5{
+        font-size: 18px;
+    }
+    .testimonials .x-logo-dark {
+        width: 9%;
+        margin-top: 9px;
+    }
+    .testimonials .card p {
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+    .testimonials .card{
+        height: 50vh;
+    }
+    .subcribe h3{
+        font-size: 17px;
+    }
+    .subcribe {
+        padding: 100% 2% 2% 5%;
+    }
+    .xs-footer-logo img{
+        width: 30%;
+    }
+    .footer-widget h3{
+        font-size: 18px;
+        margin-top: 20px;
+        border-top: 1px solid rgb(255 255 255 / 10%);
+        padding-top: 20px;
+    }
+    .footer-widget p{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,405 @@
+:root{
+    --bg-white: #fff;
+    --bg-btn-hover:#ffeed9;
+    --text-black: #000;
+    --text-white: #fff;
+    --text-red: #d7242e;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_bg{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 24%);
+    z-index: 1;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.40);
+    padding: 10px 0;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+}
+.buttons{
+    gap: 1rem;
+}
+.custom_btn{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: var(--text-white);
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    border: 2px solid var(--text-white);
+}
+.custom_btn:hover{
+    background-color: white;
+    border: 2px solid var(--text-white);
+    color: var(--text-black);
+}
+.bannerContent{
+    height: 100vh;
+    max-width: 850px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.bannerContent h1 {
+    font-size: 4rem;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.2);
+    color: var(--text-white);
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.bannerContent p{
+    font-size: 1.5rem;
+    color: var(--text-white);
+    line-height: normal;
+    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.2);
+}
+.x-logo{
+    display: inline;
+    width: 28px;
+    position: static;
+    box-shadow: none;
+    transform: none;
+    margin-top: 2px;
+}
+.pliability{
+    background-color: #fff9f9;
+    padding: 80px 0;
+}
+.pliability h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+.pliability h2 span{
+    color: var(--text-red);
+}
+.pliability p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.pliability a.btn-link {
+    color: var(--text-black);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 2px solid #000000;
+    padding: 8px 35px;
+    display: inline-block;
+    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+}
+.pliability a.btn-link:hover{
+    background-color: black;
+    color: var(--text-white);
+}
+.pliability .x-logo-dark{
+    width: 3%;
+    margin-top: 2px;
+}
+
+.asseenon{
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+.asseenon .gallery-img{
+    background: #fff;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.asseenon h2{
+    font-size: 40px;
+}
+.asseenon img {
+    width: 80%;
+}
+.trainersSection{
+    padding: 80px 0;
+    background-color: #fff9f9;
+}
+.trainersSection h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.trainersSection p.mb-3{
+    font-size: 17px;
+    font-weight: 400;
+}
+.trainersSection .x-logo-dark{
+    margin-top: 5px;
+    width: 3%;
+}
+.trainersSection h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+.xs-team:hover {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.xs-team-content .btn-outline-primary {
+    border: 2px solid var(--text-black);
+    border-radius: 0;
+    padding: 7px 30px;
+    font-weight: 600;
+    color: var(--text-black);
+}
+.xs-team-overlay a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 15px;
+}
+.xs-team-overlay a:hover{
+    color: var(--text-white);
+}
+.xs-team-content .btn-outline-primary:hover{
+    background-color: black;
+    color: var(--text-white);
+}
+.xs-team {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 14%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.xs-team-content {
+    padding: 23px 20px 25px;
+    text-align: center;
+}
+.xs-team-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.xs-team-thumb img{
+    width: 100%;
+}
+.xs-team:hover .xs-team-overlay {
+    width: 100%;
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+.xs-team-overlay {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+    width: 100%;
+    transform: translateY(-100%);
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding: 30px;
+    line-height: 36px;
+    font-size: 20px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+}
+.holisticFitness {
+    padding: 80px 0;
+    background-color: #f3f3f3;
+}
+.holisticFitness .x-logo-dark{
+    width: 2%;
+    margin-top: 5px;
+}
+.holisticFitness h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.holisticFitness .heading p{
+    font-size: 17px;
+}
+.fitnessItem{
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 35px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 21%);
+    border-radius: 4px;
+}
+.fitnessItem img{
+    margin-right: 15px;
+}
+.fitnessItem span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactUsBtn{
+    font-size: 17px;
+    color: var(--text-black);
+    border: 2px solid #000;
+    padding: 10px 35px;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 21%);
+    text-decoration: none;
+    font-weight: 500;
+}
+.contactUsBtn:hover{
+    background-color: black;
+    color: var(--text-white)
+}
+.testimonials{
+    padding: 80px 0;
+    background-color: #fff9f9;
+}
+.testimonials h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.testimonials .x-logo-dark{
+    width: 4%;
+    margin-top: 12px;
+}
+.testimonials .owl-stage-outer {
+    padding: 30px 0;
+}
+.testimonials .card p {
+    font-size: 17px;
+    color: #555;
+    padding-bottom: 15px;
+}
+.testimonials .card {
+    background: #fff;
+    box-shadow: 0 5px 15px -5px rgb(0 0 0 / 29%);
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 16px;
+    border: 0;
+    height: 55vh;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.testimonials .card h5 {
+    color: var(--text-black);
+    font-size: 21px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+.subscribeSection{
+    background-color: #f3f3f3;
+}
+.subcribe {
+    background: url(../images/subscribebg.webp) left top no-repeat;
+    background-size: 450px;
+    padding: 3% 2% 2% 5%;
+}
+.signature {
+    width: 7%;
+    margin-top: 50px;
+}
+.subcribe h2 {
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 50px;
+}
+.subcribe h3 {
+    color: var(--text-black);
+    font-weight: bold;
+    font-size: 30px;
+}
+.subcribe input[type="email"] {
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    width: 100%;
+    margin-top: 15px;
+}
+.btn-subscribe {
+    background: black !important;
+    border: 0px !important;
+    padding: 10px 30px;
+    max-height: 46px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 0;
+}
+.subcribe small {
+    color: var(--text-black);
+    margin: 15px 0;
+}
+.footer-top {
+    background: url(../images/footerbg.jpg) no-repeat center #757575;
+    color: #fff;
+    padding: 7% 0 7% 0;
+    position: relative;
+    background-size: cover;
+}
+
+.footer-top .x-logo{
+    width: 7%;
+    margin-top: 7px;
+}
+.footer-top a {
+    text-decoration: none;
+    color: #fff;
+}
+.social-icon{
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.footer-top .container{
+    z-index: 2;
+    position: relative
+}
+.footer_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 50%);
+    z-index: 1;
+}
